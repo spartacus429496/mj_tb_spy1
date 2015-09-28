@@ -1,0 +1,56 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Request	tb_spider.py	/^class Request():$/;"	c
+TaobaoShop	tb_items.py	/^class TaobaoShop():$/;"	c
+TbSpider	tb_spider.py	/^class TbSpider():$/;"	c
+__init__	tb_items.py	/^    def __init__(self, **kwags):$/;"	m	class:TaobaoShop
+__init__	tb_spider.py	/^    def __init__(self):$/;"	m	class:TbSpider
+__init__	tb_spider.py	/^    def __init__(self, url, callback):$/;"	m	class:Request
+commodity_comment	tb_items.py	/^    commodity_comment = ''$/;"	v	class:shop_commodity
+commodity_id	tb_items.py	/^    commodity_id = 0$/;"	v	class:shop_commodity
+commodity_name	tb_items.py	/^    commodity_name = ""$/;"	v	class:shop_commodity
+commodity_price	tb_items.py	/^    commodity_price = ''$/;"	v	class:shop_commodity
+commodity_promo_price	tb_items.py	/^    commodity_promo_price = ''$/;"	v	class:shop_commodity
+commodity_sales	tb_items.py	/^    commodity_sales = 0$/;"	v	class:shop_commodity
+commodity_stock	tb_items.py	/^    commodity_stock = 0$/;"	v	class:shop_commodity
+commodity_url	tb_items.py	/^    commodity_url = ""$/;"	v	class:shop_commodity
+current_shopid	tb_spider.py	/^    current_shopid = 36326929$/;"	v	class:TbSpider
+current_task_url	tb_spider.py	/^    def current_task_url(self):$/;"	m	class:TbSpider
+decode_tb_json	tb_spider.py	/^    def decode_tb_json(self, data):$/;"	m	class:TbSpider
+drive_choose	tb_spider.py	/^    drive_choose = 2$/;"	v	class:TbSpider
+get_checkcode	tb_spider.py	/^    def get_checkcode(self):$/;"	m	class:TbSpider
+last_url	tb_spider.py	/^    last_url = ''$/;"	v	class:TbSpider
+login	tb_spider.py	/^    def login(self, username='15715513873', password='w543478'):$/;"	m	class:TbSpider
+login_URL	tb_spider.py	/^    login_URL = 'https:\/\/login.taobao.com\/member\/login.jhtml'$/;"	v	class:TbSpider
+next_task_url	tb_spider.py	/^    def next_task_url(self):$/;"	m	class:TbSpider
+output	tb_items.py	/^    def output(self):$/;"	m	class:TaobaoShop
+parse_location_by_shipping_addr	tb_spider.py	/^    def parse_location_by_shipping_addr(self):$/;"	m	class:TbSpider
+parse_tbshop_detail	tb_spider.py	/^    def parse_tbshop_detail(self):$/;"	m	class:TbSpider
+r	tb_test.py	/^r = Request(t.next_task_url(), t.shop_basic_info_parse)$/;"	v
+run	tb_spider.py	/^    def run(self):$/;"	m	class:TbSpider
+shop_basic_info_parse	tb_spider.py	/^    def shop_basic_info_parse(self):$/;"	m	class:TbSpider
+shop_classify	tb_items.py	/^    shop_classify = 0$/;"	v	class:TaobaoShop
+shop_commany_name	tb_items.py	/^    shop_commany_name = ''$/;"	v	class:TaobaoShop
+shop_commodity	tb_items.py	/^class shop_commodity():$/;"	c
+shop_commodity_list	tb_items.py	/^    shop_commodity_list = []$/;"	v	class:TaobaoShop
+shop_create_time	tb_items.py	/^    shop_create_time = ''$/;"	v	class:TaobaoShop
+shop_credit	tb_items.py	/^    shop_credit = ''/;"	v	class:TaobaoShop
+shop_detail_url	tb_items.py	/^    shop_detail_url = ''$/;"	v	class:TaobaoShop
+shop_location	tb_items.py	/^    shop_location = ''$/;"	v	class:TaobaoShop
+shop_name	tb_items.py	/^    shop_name = ''$/;"	v	class:TaobaoShop
+shop_number	tb_items.py	/^    shop_number = 0$/;"	v	class:TaobaoShop
+shop_number	tb_items.py	/^    shop_number = 0$/;"	v	class:shop_commodity
+shop_owner	tb_items.py	/^    shop_owner = ''$/;"	v	class:TaobaoShop
+shop_popularity	tb_items.py	/^    shop_popularity = ''$/;"	v	class:TaobaoShop
+shop_seller_id	tb_items.py	/^    shop_seller_id = 0$/;"	v	class:TaobaoShop
+shop_telephone	tb_items.py	/^    shop_telephone = ''$/;"	v	class:TaobaoShop
+shop_trade_range	tb_items.py	/^    shop_trade_range = ''$/;"	v	class:TaobaoShop
+shop_url	tb_items.py	/^    shop_url = ''$/;"	v	class:TaobaoShop
+spider	tb_spider.py	/^    spider = TbSpider()$/;"	v	class:TbSpider
+start_crawl_task	tb_spider.py	/^    def start_crawl_task(self, request):$/;"	m	class:TbSpider
+submit_login_form	tb_spider.py	/^    def submit_login_form(self, username, password):$/;"	m	class:TbSpider
+t	tb_test.py	/^t = TbSpider()$/;"	v
